@@ -147,12 +147,6 @@ body{
 .slider_content_video:hover, .slider_content_video:focus, .slider_content_video:active{
     color: rgba(255, 255, 255, .75);
 }
-.main_title{
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 38px;
-    margin-top: 32px;
-}
 /*Slider styles end */
 
 /*Cards style start */
@@ -161,48 +155,13 @@ body{
     padding-top: 32px;          
 }
 .cards_wrapper{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: start;
-    margin-left: -8px;
-    margin-right: -2000px;
-    grid-gap:20px;
+    padding-top: -8px;
 }
-.house_of_dragon{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/House_Of_Dragon.png);
+.cards_title{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px
 }
-.game_of_throne{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/Game_Of_Throne.png);
-}
-.true_detective{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/True_Detective.png);    
-}
-.silicon_valley{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/Silicon_Valley.png);     
-}
-.thepeacemaker{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/Thepeacemaker.png);
-}
-.mare_of_easttown{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/Mare_Of_Easttown.png);
-}
-.house_of_dragon_2{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/House_Of_Dragon_2.png);
-}
+
 
 /*Cards style end */
