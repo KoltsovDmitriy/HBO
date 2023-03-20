@@ -282,29 +282,14 @@ body{
     backdrop-filter: blur(5px);
     transition: .2s;    
 }
-
 /*Hover Effect style end*/
 
 /*Cards style start */
-.subscriptions{
-    background-size: cover;
-    padding-top: 81px;
-}
 .sub_wrapper{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: start;
-    margin-left: -8px;
-    margin-right: -300px;
-    grid-gap: 20px;
+    background-size: cover;
+    padding-top: 32px;
 }
-.sub_title{
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 38px;
-    margin-left: -8px;   
-}
+
 
 
 

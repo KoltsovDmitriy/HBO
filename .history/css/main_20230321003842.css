@@ -282,7 +282,12 @@ body{
     backdrop-filter: blur(5px);
     transition: .2s;    
 }
-
+sub_title{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 81px;
+}
 /*Hover Effect style end*/
 
 /*Cards style start */
@@ -298,12 +303,6 @@ body{
     margin-left: -8px;
     margin-right: -300px;
     grid-gap: 20px;
-}
-.sub_title{
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 38px;
-    margin-left: -8px;   
 }
 
 
