@@ -31,6 +31,7 @@ body{
     height: 40.56px;
 }
 .header_list{
+    text-transform: uppercase;
     display: flex;
     flex-wrap: wrap;        
 }
@@ -83,7 +84,7 @@ body{
 /* Main styles start */
 .slider{
     background-size: cover;
-    padding-top: 90px;    
+    padding-top: 90px;
 }
 .slider_image{
     height: 595px;

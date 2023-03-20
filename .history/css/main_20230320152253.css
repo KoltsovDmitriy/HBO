@@ -1,8 +1,7 @@
 body{
-    font-family: 'Lato';
-    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+    font-style: 13px;
     font-style: normal;
-    font-weight: 400;
     color: #FFFFFF;
     background: #000000;
 }
@@ -13,7 +12,6 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    text-transform: uppercase;
 }
 .wrapper{
     width: 1274px;
@@ -31,6 +29,7 @@ body{
     height: 40.56px;
 }
 .header_list{
+    text-transform: uppercase;
     display: flex;
     flex-wrap: wrap;        
 }
@@ -83,7 +82,7 @@ body{
 /* Main styles start */
 .slider{
     background-size: cover;
-    padding-top: 90px;    
+    padding-top: 90px;
 }
 .slider_image{
     height: 595px;
@@ -130,26 +129,9 @@ body{
 }
 .slider_content_play_1{
     position: absolute;
-    margin-top: 12.97px;
-    margin-left: 16px;
+    margin-top: 205.97px;
+    margin-left: 246px;
     width: 11.99px;
     height: 14.61px;
     background-image: url(../img/Button_2.png)
-}
-.slider_content_video{
-    position: absolute;
-    margin-top: 204px;
-    margin-left: 280px;
-    text-transform: uppercase;
-    font-size: 15px;
-}
-.slider_content_video:hover, .slider_content_video:focus, .slider_content_video:active{
-    color: rgba(255, 255, 255, .75);
-}
-.slider_footer{
-    margin-top: 32px;
-    
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 38px;
 }

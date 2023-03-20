@@ -83,7 +83,8 @@ body{
 /* Main styles start */
 .slider{
     background-size: cover;
-    padding-top: 90px;    
+    padding-top: 90px;
+    text-transform: uppercase;
 }
 .slider_image{
     height: 595px;

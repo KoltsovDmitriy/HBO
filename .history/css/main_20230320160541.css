@@ -13,7 +13,6 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    text-transform: uppercase;
 }
 .wrapper{
     width: 1274px;
@@ -31,6 +30,7 @@ body{
     height: 40.56px;
 }
 .header_list{
+    text-transform: uppercase;
     display: flex;
     flex-wrap: wrap;        
 }
@@ -83,7 +83,7 @@ body{
 /* Main styles start */
 .slider{
     background-size: cover;
-    padding-top: 90px;    
+    padding-top: 90px;
 }
 .slider_image{
     height: 595px;
@@ -147,8 +147,6 @@ body{
     color: rgba(255, 255, 255, .75);
 }
 .slider_footer{
-    margin-top: 32px;
-    
     font-weight: 900;
     font-size: 32px;
     line-height: 38px;
