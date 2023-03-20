@@ -24,7 +24,7 @@ body{
     flex-wrap: nowrap;
     align-items: flex-end;
     justify-content: space-between;
-    padding-top: 24px;
+    padding-top: 24px;c:\Users\KoltsovDV\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\code\electron-sandbox\workbench\workbench.html
 }
 .header_logo-pic{
     width: 100px;
@@ -152,17 +152,10 @@ body{
 /*Cards style start */
 .cards{
     background-size: cover;
+    padding-top: 32px;
     width: 1848px;
     height: 481px;
-    margin: 0 auto;         
-}
-.cards_wrapper{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: flex-end;
-    justify-content: space-between;
-    padding-top: 32px;
-    margin-left: -8px;
+    margin: 0 auto;
 }
 .cards_title{
     font-weight: 900;

@@ -154,7 +154,7 @@ body{
     background-size: cover;
     width: 1848px;
     height: 481px;
-    margin: 0 auto;         
+    margin: 0 auto;      
 }
 .cards_wrapper{
     display: flex;
@@ -162,7 +162,7 @@ body{
     align-items: flex-end;
     justify-content: space-between;
     padding-top: 32px;
-    margin-left: -8px;
+    padding-left: ;
 }
 .cards_title{
     font-weight: 900;

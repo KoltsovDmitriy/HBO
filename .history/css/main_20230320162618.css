@@ -81,7 +81,6 @@ body{
 /* Header styles end */
 
 /* Main styles start */
-/*Slider styles start */
 .slider{
     background-size: cover;
     padding-top: 90px;    
@@ -147,29 +146,10 @@ body{
 .slider_content_video:hover, .slider_content_video:focus, .slider_content_video:active{
     color: rgba(255, 255, 255, .75);
 }
-/*Slider styles end */
-
-/*Cards style start */
-.cards{
-    background-size: cover;
-    width: 1848px;
-    height: 481px;
-    margin: 0 auto;         
-}
-.cards_wrapper{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: flex-end;
-    justify-content: space-between;
-    padding-top: 32px;
-    margin-left: -8px;
-}
 .cards_title{
+    margin-top: 32px;
+    
     font-weight: 900;
     font-size: 32px;
     line-height: 38px;
 }
-
-
-
-/*Cards style end */

@@ -152,17 +152,9 @@ body{
 /*Cards style start */
 .cards{
     background-size: cover;
-    width: 1848px;
-    height: 481px;
-    margin: 0 auto;         
-}
-.cards_wrapper{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: flex-end;
-    justify-content: space-between;
     padding-top: 32px;
-    margin-left: -8px;
+    width: 1274px;
+    margin: 0 auto;
 }
 .cards_title{
     font-weight: 900;
