@@ -6,7 +6,7 @@ body{
     background: #000000;
 }
 
-/* Header styles start */
+/*Header*/
 .header{
     position: fixed;
     top: 0;
@@ -77,5 +77,3 @@ body{
 .header_link_5:hover, .header_link_5:focus, .header_link_5.header_link_1{
     color: rgba(255, 255, 255, .75);
 }
-/* Header styles end */
-

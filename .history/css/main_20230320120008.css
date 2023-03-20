@@ -6,7 +6,7 @@ body{
     background: #000000;
 }
 
-/* Header styles start */
+/*Header*/
 .header{
     position: fixed;
     top: 0;
@@ -35,6 +35,7 @@ body{
 }
 .header_item{
     line-height: 16px;
+    font-weight: 400;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.75);
 }
@@ -63,19 +64,5 @@ body{
     color: rgba(255, 255, 255, 1);
 }
 .header_link_1:hover, .header_link_1:focus, .header_link_1:active{
-    color: rgba(255, 255, 255, 1);
+    color: rgb(112, 165, 87);
 }
-.header_link_2:hover, .header_link_2:focus, .header_link_2:active{
-    color: rgba(255, 255, 255, 1);
-}
-.header_link_3:hover, .header_link_3:focus, .header_link_3:active{
-    color: rgba(255, 255, 255, 1);
-}
-.header_link_4:hover, .header_link_4:focus, .header_link_4:active{
-    color: rgba(255, 255, 255, 1);
-}
-.header_link_5:hover, .header_link_5:focus, .header_link_5.header_link_1{
-    color: rgba(255, 255, 255, .75);
-}
-/* Header styles end */
-
