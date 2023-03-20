@@ -121,8 +121,8 @@ body{
 }
 .slider_content_play{
     position: absolute;
-    margin-top: 193px;
-    margin-left: 230px;
+    /*margin-top: 193px;
+    margin-left: 230px;*/
     width: 40px;
     height: 40px;
     background-image: url(../img/Button_1.png);
