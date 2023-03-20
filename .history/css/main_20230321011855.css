@@ -298,12 +298,12 @@ body{
 }
 .sub_wrapper{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     margin-left: -8px;
     margin-right: -8px;
-    grid-gap: -117px;
+    grid-gap: 20px;
     margin-top: 24px;
     margin-bottom: 32px;
 }
