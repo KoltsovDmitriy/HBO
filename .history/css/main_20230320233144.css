@@ -212,27 +212,21 @@ body{
 
 /*Hover Effect style start*/
 .hover{
-    opacity: 0;
-    width: 210px;
-    border-radius: 12px;
-    height: 300px;
-    
+    display: none;
 }
 .house_of_dragon_hover_flex{
     display: flex;
     align-items: flex-end;
-    justify-content: flex-start;
-    width: 170px;   
-}
-.house_of_dragon_flex_toggle{
+    justify-content: flex-end;
+    width: 170px;
+    margin-top: 20.45px;
     margin-left: 20.34px;
 }
 .house_of_dragon_flex_8_1{
-    margin-left: 6.34px;    
+    margin-left: 6.34px;
 }
 .house_of_dragon_flex_2022{
     margin-left: 105px;
-    margin-top: 20.45px;
 }
 .house_of_dragon_season_hover{
     font-weight: 500;
@@ -276,12 +270,16 @@ body{
 .house_of_dragon_season_watch{
     padding: 12.82px 0 0 16.19px;
 }
-.hover:hover{
-    opacity: 1;
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(5px);
-    transition: .2s;    
-}
 
 /*Hover Effect style end*/
+.house_of_dragon:hover, .house_of_dragon:focus{
+    opacity: .15;
+    backdrop-filter: blur(5px);
+}
+.hover:hover, .hover:focus{
+    opacity: 1;
+}
+
+/*Hover Effect* style start*/
+
 /*Cards style end */

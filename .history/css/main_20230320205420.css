@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 body{
-    font-family: 'Lato', sans-serif;;
+    font-family: 'Lato';
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -211,77 +210,33 @@ body{
 }
 
 /*Hover Effect style start*/
-.hover{
-    opacity: 0;
-    width: 210px;
-    border-radius: 12px;
-    height: 300px;
-    
+.house_of_dragon_toggle{
+    padding: 20.45px 0 0 20.34px;
 }
-.house_of_dragon_hover_flex{
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    width: 170px;   
+.house_of_dragon_rating{
+    padding: 20px 0 0 6.34px;
 }
-.house_of_dragon_flex_toggle{
-    margin-left: 20.34px;
+.year{
+    padding: 20px 0 0 105px;
 }
-.house_of_dragon_flex_8_1{
-    margin-left: 6.34px;    
-}
-.house_of_dragon_flex_2022{
-    margin-left: 105px;
-    margin-top: 20.45px;
-}
-.house_of_dragon_season_hover{
+.season{
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
     color: rgba(255, 255, 255, 0.5);
-    margin-top: 56px;
-    margin-left: 20px;
-}
-.house_of_dragon_hover{
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
-    margin-top: 7px;
-    margin-left: 20px;
-    }
-.house_of_dragon_text_hover{
-    width: 170px;
-    height: 52px;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 13px;
-    margin-top: 6px;
-    margin-left: 20px;
-}
-.house_of_dragon_button_watch{
-    width: 170px;
-    height: 38px;
-    background: #0059C1;
-    border-radius: 12px;
-    margin-top: 48px;
-    margin-left: 20px;
-}
-.house_of_dragon_text_watch{
-    position: absolute;
-    font-weight: 700;
-    font-size: 13px;
-    padding-left: 106px;
-    padding-top: 11px;
-}
-.house_of_dragon_season_watch{
-    padding: 12.82px 0 0 16.19px;
-}
-.hover:hover{
-    opacity: 1;
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(5px);
-    transition: .2s;    
+    position: relative;
+    left: 20px;
+    top: 56px;
 }
 
-/*Hover Effect style end*/
+
+
+
+.house_of_dragon:hover, .house_of_dragon:focus{
+    border-radius: 120px;
+    
+}
+
+/*Hover Effect* style start*/
+
 /*Cards style end */
