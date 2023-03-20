@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 body{
-    font-family: 'Lato', sans-serif;;
+    font-family: 'Lato';
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -148,140 +147,30 @@ body{
 .slider_content_video:hover, .slider_content_video:focus, .slider_content_video:active{
     color: rgba(255, 255, 255, .75);
 }
-.main_title{
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 38px;
-    margin-top: 32px;
-}
 /*Slider styles end */
 
 /*Cards style start */
 .cards{
     background-size: cover;
-    padding-top: 32px;             
+    padding-top: 32px;          
 }
 .cards_wrapper{
     display: flex;
     flex-wrap: nowrap;
-    align-items: center;
-    justify-content: start;
+    align-items: flex-end;
+    justify-content: space-between;
     margin-left: -8px;
-    margin-right: -300px;
-    grid-gap: 20px;
-    
 }
-.cards_wrapper > div{
-    border-radius: 12px;
+.cards_title{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+    margin-left: 8px;
 }
 .house_of_dragon{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/House_Of_Dragon.png);
-}
-.game_of_throne{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/Game_Of_Throne.png);
-}
-.true_detective{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/True_Detective.png);    
-}
-.silicon_valley{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/Silicon_Valley.png);     
-}
-.thepeacemaker{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/Thepeacemaker.png);
-}
-.mare_of_easttown{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/Mare_Of_Easttown.png);
-}
-.house_of_dragon_2{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/House_Of_Dragon_2.png);
-}
-
-/*Hover Effect style start*/
-.hover{
-    opacity: 0;
-    width: 210px;
-    border-radius: 12px;
-    height: 300px;
-    
-}
-.house_of_dragon_hover_flex{
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    width: 170px;   
-}
-.house_of_dragon_flex_toggle{
-    margin-left: 20.34px;
-}
-.house_of_dragon_flex_8_1{
-    margin-left: 6.34px;    
-}
-.house_of_dragon_flex_2022{
-    margin-left: 105px;
-    margin-top: 20.45px;
-}
-.house_of_dragon_season_hover{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    color: rgba(255, 255, 255, 0.5);
-    margin-top: 56px;
-    margin-left: 20px;
-}
-.house_of_dragon_hover{
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
-    margin-top: 7px;
-    margin-left: 20px;
-    }
-.house_of_dragon_text_hover{
-    width: 170px;
-    height: 52px;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 13px;
-    margin-top: 6px;
-    margin-left: 20px;
-}
-.house_of_dragon_button_watch{
-    width: 170px;
-    height: 38px;
-    background: #0059C1;
-    border-radius: 12px;
-    margin-top: 48px;
-    margin-left: 20px;
-}
-.house_of_dragon_text_watch{
     position: absolute;
-    font-weight: 700;
-    font-size: 13px;
-    padding-left: 106px;
-    padding-top: 11px;
-}
-.house_of_dragon_season_watch{
-    padding: 12.82px 0 0 16.19px;
-}
-.hover:hover{
-    opacity: 1;
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(5px);
-    transition: .2s;    
+    width: 210px;
+    height: 300px
 }
 
-/*Hover Effect style end*/
 /*Cards style end */

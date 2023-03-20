@@ -276,12 +276,21 @@ body{
 .house_of_dragon_season_watch{
     padding: 12.82px 0 0 16.19px;
 }
+
+/*Hover Effect style end*/
+/*.house_of_dragon:hover, .house_of_dragon:focus{
+    opacity: .15;
+    backdrop-filter: blur(5px);
+}
+.hover:hover, .hover:focus{
+    opacity: 1;
+}*/
 .hover:hover{
     opacity: 1;
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(5px);
-    transition: .2s;    
+    transition: .1s;    
 }
+/*Hover Effect* style start*/
 
-/*Hover Effect style end*/
 /*Cards style end */
