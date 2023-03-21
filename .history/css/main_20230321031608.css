@@ -10,7 +10,7 @@ body{
 
 /* Header styles start */
 .header{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -328,7 +328,7 @@ body{
     height: 296px;
     background: linear-gradient(90deg, #000000 0%, rgba(13, 0, 123, 0.25) 100%);
     border-radius: 12px;
-    opacity: .25;      
+    opacity: .25;    
 }
 .membership_2_title{
     font-weight: 900;
@@ -383,20 +383,20 @@ body{
 .membership_1:hover{    
     background: linear-gradient(90deg, rgba(0, 89, 193, 0.5) 0%, rgba(13, 0, 123, 0.5) 100%);
     border: 1px solid rgba(0, 89, 193, 0.5);
-   
+    z-index: 2;
     opacity: 1;
     
 }
 .membership_2:hover{
     background: linear-gradient(90deg, rgba(0, 89, 193, 0.5) 0%, rgba(13, 0, 123, 0.5) 100%);
-    border: 1px solid rgba(0, 89, 193, 0.5);    
-    opacity: 1;
+    border: 1px solid rgba(0, 89, 193, 0.5);
+    z-index: 2;
     
 }
 .membership_3:hover{
     background: linear-gradient(90deg, rgba(0, 89, 193, 0.5) 0%, rgba(13, 0, 123, 0.5) 100%);
-    border: 1px solid rgba(0, 89, 193, 0.5);    
-    opacity: 1;
+    border: 1px solid rgba(0, 89, 193, 0.5);
+    z-index: 2;
     
 }
 /*Cards style end */

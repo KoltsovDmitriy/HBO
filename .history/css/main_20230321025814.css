@@ -10,7 +10,7 @@ body{
 
 /* Header styles start */
 .header{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -299,8 +299,8 @@ body{
 .sub_wrapper{
     display: flex;
     flex-wrap: nowrap;
-    /*align-items: center;
-    justify-content: center;*/
+    align-items: center;
+    justify-content: center;
     margin-left: -8px;
     margin-right: -8px;
     margin-top: 24px;
@@ -309,10 +309,11 @@ body{
 .membership_1{
     width: 502px;
     height: 296px;
-    background: linear-gradient(90deg, #000000 0%, rgba(13, 0, 123, 0.25) 100%);
-    border-radius: 12px;
-    opacity: .25; 
-       
+    background: linear-gradient(90deg, rgba(0, 89, 193, 0.5) 0%, rgba(13, 0, 123, 0.5) 100%);
+    border: 1px solid rgba(0, 89, 193, 0.5);
+    border-radius: 12px; 
+    z-index: 1;
+    opacity: 0.5;   
 }
 .membership_2{
     width: 502px;
@@ -321,14 +322,17 @@ body{
     border-radius: 12px;
     margin-left: -117px;
     margin-right: -117px;
-    opacity: .25;        
+    z-index: 2;
+    opacity: .5;
 }
 .membership_3{
     width: 502px;
     height: 296px;
-    background: linear-gradient(90deg, #000000 0%, rgba(13, 0, 123, 0.25) 100%);
+    background: linear-gradient(90deg, rgba(0, 89, 193, 0.5) 0%, rgba(13, 0, 123, 0.5) 100%);
+    border: 1px solid rgba(0, 89, 193, 0.5);
     border-radius: 12px;
-    opacity: .25;      
+    z-index: 1;
+    opacity: 0.5;    
 }
 .membership_2_title{
     font-weight: 900;
@@ -344,8 +348,8 @@ body{
     margin-top: 35px;
 }
 .membership_2_li{
-    margin-bottom: 16px;
-    list-style-type: disc;
+margin-bottom: 16px;
+list-style-type: disc;
 }
 .membership_2_flex{
     display: flex;
@@ -380,23 +384,9 @@ body{
     line-height: 22px;
     padding: 9px 43px;
 }
-.membership_1:hover{    
+.membership_2:hover{
+    opacity: 1;
     background: linear-gradient(90deg, rgba(0, 89, 193, 0.5) 0%, rgba(13, 0, 123, 0.5) 100%);
     border: 1px solid rgba(0, 89, 193, 0.5);
-   
-    opacity: 1;
-    
-}
-.membership_2:hover{
-    background: linear-gradient(90deg, rgba(0, 89, 193, 0.5) 0%, rgba(13, 0, 123, 0.5) 100%);
-    border: 1px solid rgba(0, 89, 193, 0.5);    
-    opacity: 1;
-    
-}
-.membership_3:hover{
-    background: linear-gradient(90deg, rgba(0, 89, 193, 0.5) 0%, rgba(13, 0, 123, 0.5) 100%);
-    border: 1px solid rgba(0, 89, 193, 0.5);    
-    opacity: 1;
-    
 }
 /*Cards style end */

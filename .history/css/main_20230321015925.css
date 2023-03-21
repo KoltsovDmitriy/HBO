@@ -10,7 +10,7 @@ body{
 
 /* Header styles start */
 .header{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -299,8 +299,8 @@ body{
 .sub_wrapper{
     display: flex;
     flex-wrap: nowrap;
-    /*align-items: center;
-    justify-content: center;*/
+    align-items: center;
+    justify-content: center;
     margin-left: -8px;
     margin-right: -8px;
     margin-top: 24px;
@@ -310,93 +310,28 @@ body{
     width: 502px;
     height: 296px;
     background: linear-gradient(90deg, #000000 0%, rgba(13, 0, 123, 0.25) 100%);
-    border-radius: 12px;
-    opacity: .25; 
-       
+    border-radius: 12px;    
 }
 .membership_2{
     width: 502px;
     height: 296px;
-    background: linear-gradient(90deg, #000000 0%, rgba(13, 0, 123, 0.25) 100%);
+    background: linear-gradient(90deg, rgba(0, 89, 193, 0.5) 0%, rgba(13, 0, 123, 0.5) 100%);
+    border: 1px solid rgba(0, 89, 193, 0.5);
     border-radius: 12px;
     margin-left: -117px;
-    margin-right: -117px;
-    opacity: .25;        
+    margin-right: 117px;
 }
 .membership_3{
     width: 502px;
     height: 296px;
     background: linear-gradient(90deg, #000000 0%, rgba(13, 0, 123, 0.25) 100%);
     border-radius: 12px;
-    opacity: .25;      
-}
-.membership_2_title{
-    font-weight: 900;
-    font-size: 30px;
-    line-height: 36px;
-    padding-top: 32px;
-    text-align: center;
-}
-.membership_2_ul{
-    font-weight: 500;
-    font-size: 16px;
-    margin-left: 55px;
-    margin-top: 35px;
-}
-.membership_2_li{
-    margin-bottom: 16px;
-    list-style-type: disc;
-}
-.membership_2_flex{
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-}
-.membership_2_buy{
-    width: 147px;
-    height: 40px;
-    background: #E38B00;
-    border-radius: 12px;
-    margin-left: 166px;    
-}
-.membership_2_buy_text{
-    position: absolute;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 22px;
-    padding: 9px 16px;
-}
-.membership_2_try_trial{
-    width: 147px;
-    height: 40px;
-    border: 1px solid #E38B00;
-    border-radius: 12px;
-    margin-left: 10px;
-}
-.membership_2_try_trial_text{
-    position: absolute;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    padding: 9px 43px;
-}
-.membership_1:hover{    
-    background: linear-gradient(90deg, rgba(0, 89, 193, 0.5) 0%, rgba(13, 0, 123, 0.5) 100%);
-    border: 1px solid rgba(0, 89, 193, 0.5);
-   
-    opacity: 1;
     
 }
-.membership_2:hover{
-    background: linear-gradient(90deg, rgba(0, 89, 193, 0.5) 0%, rgba(13, 0, 123, 0.5) 100%);
-    border: 1px solid rgba(0, 89, 193, 0.5);    
-    opacity: 1;
-    
-}
-.membership_3:hover{
-    background: linear-gradient(90deg, rgba(0, 89, 193, 0.5) 0%, rgba(13, 0, 123, 0.5) 100%);
-    border: 1px solid rgba(0, 89, 193, 0.5);    
-    opacity: 1;
-    
-}
+
+
+
+
+
+
 /*Cards style end */
