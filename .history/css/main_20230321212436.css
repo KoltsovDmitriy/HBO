@@ -314,7 +314,7 @@ body{
     height: 296px;
     background: linear-gradient(90deg, #000000 0%, rgba(13, 0, 123, 0.25) 100%);
     border-radius: 12px;
-    opacity: .25;*
+    opacity: .25; 
        
 }
 .membership_2{
@@ -324,7 +324,7 @@ body{
     border-radius: 12px;
     margin-left: -117px;
     margin-right: -117px;
-    opacity: 0.25;        
+    opacity: .25;        
 }
 .membership_3{
     width: 502px;
@@ -384,17 +384,17 @@ body{
     padding: 9px 43px;
 }
 .membership_1:hover{    
-    background: linear-gradient(90deg, rgba(0, 89, 193, 1) 0%, rgba(13, 0, 123, 1) 100%);
+    background: linear-gradient(90deg, rgba(0, 89, 193, 0.5) 100%, rgba(13, 0, 123, 0.5) 100%);
     border: 1px solid rgba(0, 89, 193, 0.5);   
     opacity: 1;    
 }
 .membership_2:hover{
-    background: linear-gradient(90deg, rgba(0, 89, 193, 1) 0%, rgba(13, 0, 123, 1) 100%);
+    background: linear-gradient(90deg, rgba(0, 89, 193, 0.5) 100%, rgba(13, 0, 123, 0.5) 100%);
     border: 1px solid rgba(0, 89, 193, 0.5);    
     opacity: 1;   
 }
 .membership_3:hover{
-    background: linear-gradient(90deg, rgba(0, 89, 193, 1) 0%, rgba(13, 0, 123, 1) 100%);
+    background: linear-gradient(90deg, rgba(0, 89, 193, 0.5) 100%, rgba(13, 0, 123, 0.5) 100%);
     border: 1px solid rgba(0, 89, 193, 0.5);    
     opacity: 1;    
 }
