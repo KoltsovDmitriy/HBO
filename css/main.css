@@ -307,7 +307,7 @@ body{
     margin-bottom: 16px;
     list-style-type: disc;
 }
-.membership__flex{
+.membership__price{
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
@@ -326,7 +326,7 @@ body{
     line-height: 22px;
     padding: 9px 16px;
 }
-.membership__try--trial{
+.membership__tryl{
     width: 147px;
     height: 40px;
     border: 1px solid #E38B00;
