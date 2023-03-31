@@ -159,7 +159,7 @@ body{
     justify-content: start;  
     margin-right: -300px;
     grid-gap: 20px;
-    
+    overflow: hidden;
 }
 .cards__wrapper > div{
     border-radius: 12px;
