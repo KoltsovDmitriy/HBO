@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 body{
-    font-family: 'Lato', sans-serif;;
+    font-family: 'Lato', sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -20,42 +19,42 @@ body{
     width: 1274px;
     margin: 0 auto;    
 }
-.header_wrapper{
+.header__wrapper{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between; 
     padding-top: 24px;
 }
-.header_logo-pic{
+.header__logo-pic{
     width: 100px;
     height: 40.56px;
 }
-.header_list{
+.header__list{
     display: flex;
     flex-wrap: wrap;        
 }
-.header_item{
+.header__item{
     line-height: 16px;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.75);
 }
-.header_link_1{
+.header__link1{
     margin-right: 43px;
 }
-.header_link_2{
+.header__link2{
     margin-right: 115px;
 }
-.header_link_3{
+.header__link3{
     margin-right: 59px;
 }
-.header_link_3{
+.header__link3{
     margin-right: 59px;
 }
-.header_link_4{
+.header__link4{
     margin-right: 284px;
 }
-.header_link_5{
+.header__link5{
     font-weight: 700;
     background: #0059C1;
     border-radius: 12px;
@@ -313,7 +312,7 @@ body{
     height: 296px;
     background: linear-gradient(90deg, #000000 0%, rgba(13, 0, 123, 0.25) 100%);
     border-radius: 12px;
-    opacity: .25;*
+    opacity: .25;
        
 }
 .membership_2{
