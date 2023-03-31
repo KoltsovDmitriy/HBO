@@ -28,7 +28,7 @@ body{
 .header__logo{
     padding-top: 24px;
 }
-.header__logo-pic{
+.header__logo--pic{
     width: 100px;
     height: 40.56px;
 }
@@ -90,7 +90,7 @@ body{
     background-size: cover;
     padding-top: 90px;    
 }
-.slider_image{
+.slider__image{
     height: 595px;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 63.19%, #000000 100%), url(../img/Slider_bg.png);
     display: flex;
@@ -100,48 +100,46 @@ body{
     text-align: center;
 
 }
-.slider_content{   
+.slider__content{   
     width: 658px;
     height: 233px;
     /* display: flex;
     flex-direction: column; */
 }
-.slider_content_title{
+.slider__title{
     width: 658px;
-    height: 142.78px;
-    background-image: url(../img/The_Last_of_Us_logo_1.png);    
+    height: 142.78px;        
 }
-.slider_line{   
+.slider__title--line{   
     padding-top: 29.22px;
     padding-bottom: 20px;    
 }
-.slider_line2{
+.slider__title--line2{
     padding-top: 29.22px;
     padding-bottom: 20px;
     width: 403px;
     margin-left: -3px;
 }
-.slider_button{    
+.slider__button{    
     font-weight: 400;
     font-size: 15px;
     width: 198px;
     height: 40px;
-    text-transform: uppercase;
-    background-image: url(../img/Button_1.png);
+    text-transform: uppercase;    
     background-repeat: no-repeat;
 }
-.button_img{
+.slider__button--img{
     padding-left: 16px;
     padding-right: 20px;
     float: left;  
 }
-.slider_button:hover, .slider_button:focus, .slider_button:active{
+.slider__button:hover, .slider__button:focus, .slider__button:active{
     color: rgba(255, 255, 255, .75);    
 }
-.button_img:hover, .button_img:focus, .button_img:active{
+.slider__button--img:hover, .slider__button--img:focus, .slider__button--img:active{
     opacity: 0.75;
 }
-.main_title{
+.main__title{
     font-weight: 900;
     font-size: 32px;
     line-height: 38px;
@@ -154,53 +152,21 @@ body{
     background-size: cover;
     padding-top: 32px;             
 }
-.cards_wrapper{
+.cards__wrapper{
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: start;
-    /* margin-left: -8px; */
+    justify-content: start;  
     margin-right: -300px;
     grid-gap: 20px;
     
 }
-.cards_wrapper > div{
+.cards__wrapper > div{
     border-radius: 12px;
 }
-.house_of_dragon{
+.film{
     width: 210px;
-    height: 300px;
-    background-image: url(../img/House_Of_Dragon.png);
-}
-.game_of_throne{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/Game_Of_Throne.png);
-}
-.true_detective{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/True_Detective.png);    
-}
-.silicon_valley{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/Silicon_Valley.png);     
-}
-.thepeacemaker{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/Thepeacemaker.png);
-}
-.mare_of_easttown{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/Mare_Of_Easttown.png);
-}
-.house_of_dragon_2{
-    width: 210px;
-    height: 300px;
-    background-image: url(../img/House_Of_Dragon_2.png);
+    height: 300px;    
 }
 
 /*Hover Effect style start*/
@@ -211,23 +177,23 @@ body{
     height: 300px;
     
 }
-.house_of_dragon_hover_flex{
+.film__flex{
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
     width: 170px;   
 }
-.house_of_dragon_flex_toggle{
-    margin-left: 20.34px;
+.film__info--toggle{
+    margin-left: 20.34px;    
 }
-.house_of_dragon_flex_8_1{
+.film__info--8_1{
     margin-left: 6.34px;    
 }
-.house_of_dragon_flex_2022{
+.film__info--2022{
     margin-left: 105px;
     margin-top: 20.45px;
 }
-.house_of_dragon_season_hover{
+.film__season{
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
@@ -235,14 +201,14 @@ body{
     margin-top: 56px;
     margin-left: 20px;
 }
-.house_of_dragon_hover{
+.film__name{
     font-weight: 900;
     font-size: 18px;
     line-height: 22px;
     margin-top: 7px;
     margin-left: 20px;
 }
-.house_of_dragon_text_hover{
+.film__description{
     width: 170px;
     height: 52px;
     font-weight: 400;
@@ -251,7 +217,7 @@ body{
     margin-top: 6px;
     margin-left: 20px;
 }
-.house_of_dragon_button_watch{
+.film__button{
     width: 170px;
     height: 38px;
     background: #0059C1;
@@ -259,17 +225,17 @@ body{
     margin-top: 48px;
     margin-left: 20px;
 }
-.house_of_dragon_button_watch:hover, .house_of_dragon_button_watch:focus, .house_of_dragon_button_watch:active{
+.film__button:hover, .film__button:focus, .film__button:active{
     background: #E3B100;
 }
-.house_of_dragon_text_watch{
+.film__button--watch{
     position: absolute;
     font-weight: 700;
     font-size: 13px;
     padding-left: 106px;
     padding-top: 11px;
 }
-.house_of_dragon_season_watch{
+.film__button--text{
     padding: 12.82px 0 0 16.19px;
 }
 .hover:hover{
@@ -301,91 +267,90 @@ body{
     margin-top: 24px;
     margin-bottom: 32px;
 }
-.membership_1{
+.membership1{
     width: 502px;
     height: 296px;
     background: linear-gradient(90deg, #000000 0%, rgba(13, 0, 123, 0.25) 100%);
     border-radius: 12px;
-    opacity: .25;
-       
+    opacity: .25;       
 }
-.membership_2{
+.membership2{
     width: 502px;
     height: 296px;
     background: linear-gradient(90deg, #000000 0%, rgba(13, 0, 123, 0.25) 100%);
     border-radius: 12px;
     margin-left: -117px;
     margin-right: -117px;
-    opacity: 0.25;        
+    opacity: .25;        
 }
-.membership_3{
+.membership3{
     width: 502px;
     height: 296px;
     background: linear-gradient(90deg, #000000 0%, rgba(13, 0, 123, 0.25) 100%);
     border-radius: 12px;
     opacity: .25;      
 }
-.membership_2_title{
+.membership__title{
     font-weight: 900;
     font-size: 30px;
     line-height: 36px;
     padding-top: 32px;
     text-align: center;
 }
-.membership_2_ul{
+.membership__ul{
     font-weight: 500;
     font-size: 16px;
     margin-left: 55px;
     margin-top: 35px;
 }
-.membership_2_li{
+.membership__li{
     margin-bottom: 16px;
     list-style-type: disc;
 }
-.membership_2_flex{
+.membership__flex{
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
 }
-.membership_2_buy{
+.membership__buy{
     width: 147px;
     height: 40px;
     background: #E38B00;
     border-radius: 12px;
     margin-left: 166px;    
 }
-.membership_2_buy_text{
+.membership__buy--text{
     position: absolute;
     font-weight: 900;
     font-size: 18px;
     line-height: 22px;
     padding: 9px 16px;
 }
-.membership_2_try_trial{
+.membership__try--trial{
     width: 147px;
     height: 40px;
     border: 1px solid #E38B00;
     border-radius: 12px;
     margin-left: 10px;
 }
-.membership_2_try_trial_text{
+.membership__try--text{
     position: absolute;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
     padding: 9px 43px;
 }
-.membership_1:hover{    
+.membership1:hover{    
     background: linear-gradient(90deg, rgba(0, 89, 193, 1) 0%, rgba(13, 0, 123, 1) 100%);
     border: 1px solid rgba(0, 89, 193, 0.5);   
     opacity: 1;    
 }
-.membership_2:hover{
+.membership2:hover{
     background: linear-gradient(90deg, rgba(0, 89, 193, 1) 0%, rgba(13, 0, 123, 1) 100%);
     border: 1px solid rgba(0, 89, 193, 0.5);    
     opacity: 1;   
 }
-.membership_3:hover{
+.membership3:hover{
     background: linear-gradient(90deg, rgba(0, 89, 193, 1) 0%, rgba(13, 0, 123, 1) 100%);
     border: 1px solid rgba(0, 89, 193, 0.5);    
     opacity: 1;    
