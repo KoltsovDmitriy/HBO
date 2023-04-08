@@ -467,10 +467,78 @@ body{
     margin-top: 20px;
 }
 .account__info{
-
+    width: 733px;
+    margin-top: 24px;
 }
 .info__name{
     width: 350px;
     height: 33px;
-     
+    border-bottom:#E38B00 1px solid;
+    text-align: left;
+}
+.info__flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.info__last-name{
+    width: 350px;
+    height: 33px;
+    border-bottom: white 1px solid;
+    text-align: left;
+}
+.info{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.5);
+   
+}
+.marketing-email{
+    margin-top: 18px;
+    text-align: left;
+}
+.info__email{
+    border-bottom: white 1px solid;
+    text-align: left;
+    width: 733px;
+    height: 33px;
+    margin-top: 24px;
+}
+.marketing__email{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.5);
+
+
+}
+.marketing__chekbox{
+    width: 20px;
+    height: 20px;
+    background-color: #000000;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+}
+.info__button{
+    margin-top: 25px;
+    width: 733px;
+    height: 40px;
+    background: #0059C1;
+    border-radius: 12px;
+}
+.info__privacy{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
+
+}
+.info__privacy--active{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+    color: #E38B00;
 }
