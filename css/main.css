@@ -463,6 +463,15 @@ body{
     border-radius: 12px;
     text-align: center;    
 }
+
+.description__image{
+    position: relative;
+    top: -25px;
+}
+.period__image{
+    position: relative;
+    top: -45px;
+}
 .sign-up__account{
     text-align: center;
     margin-top: 20px;
@@ -474,7 +483,7 @@ body{
 .info__name{
     width: 350px;
     height: 33px;
-    border-bottom:#E38B00 1px solid;
+    border-bottom: white 1px solid;
     text-align: left;
 }
 .info__flex{
@@ -498,6 +507,8 @@ body{
 .marketing-email{
     margin-top: 18px;
     text-align: left;
+    display: flex;
+    justify-content: center;
 }
 .info__email{
     border-bottom: white 1px solid;
@@ -510,26 +521,25 @@ body{
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    color: rgba(255, 255, 255, 0.5);
-
-
+    color: rgba(255, 255, 255, 0.5); 
+    margin-left: 15px;
 }
 .marketing__chekbox{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background-color: #000000;
     border: 1px solid #D9D9D9;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 .info__button{
-    margin-top: 25px;
+    margin-top: 33px;
     width: 733px;
     height: 40px;
     background: #0059C1;
     border-radius: 12px;
 }
 .info__privacy{
-    margin-top: 20px;
+    margin-top: 18px;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
@@ -542,4 +552,17 @@ body{
     line-height: 14px;
     text-decoration-line: underline;
     color: #E38B00;
+}
+.info__last-name:focus, .info__last-name:active,
+.info__name:focus, .info__name:active,
+.info__email:focus, .info__email:active,
+.info__password:focus, .info__password:active{
+    border-bottom:#E38B00 1px solid;
+}
+.card__item-active{
+    position: relative;
+    top: -41px;
+    left: 443px;
+    width: 38px;
+    height: 38px;
 }
