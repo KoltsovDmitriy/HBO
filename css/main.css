@@ -571,6 +571,11 @@ body{
 .films{
     margin-top: 110px;
 }
+.films__wrappers{
+    display: flex;
+    width: 1317px;
+    align-items: center;
+}
 .films__wrapper{
     margin-top: 25px;
     display: flex;
@@ -580,8 +585,10 @@ body{
     /* margin-right: -295px; */
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    gap: 16px;    
+    gap: 16px;
+        
 }
+
 .films__wrapper > div{
     border-radius: 12px;
 }
